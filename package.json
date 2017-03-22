@@ -1,0 +1,22 @@
+{
+  "name": "qixiang",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "html-webpack-plugin": "^2.28.0",
+    "jquery": "^3.1.1",
+    "webpack": "^2.2.1",
+    "webpack-dev-server": "^2.4.1"
+  },
+  "devDependencies": {
+    "css-loader": "^0.26.4",
+    "style-loader": "^0.13.2"
+  },
+  "scripts": {
+    "server": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

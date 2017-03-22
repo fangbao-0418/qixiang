@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="content-type" content="text/html;charset=utf-8">
+	<title>mian2</title>
+	<link rel="stylesheet" type="text/css" href="css/main.css" />
+	<base target="_blank" />
+</head>
+<body>
+	<h1>Main2</h1>
+	<section>
+		<div id="box-1">
+			<div id="box-2"></div>
+		</div>
+		<div id="box"></div>
+		<article>
+			<h2>习近平：所有扶贫地区领导干部都要坚守岗位</h2>
+			<p>两会  漫评  专题  中国饭碗  治国理政  中国梦  精准脱贫</p>
+		</article>
+		<img src="http://www.w3school.com.cn/i/eg_planets.jpg" usemap="#planetmap" alt="Planets" title="Planets">
+		<map name="planetmap" id="planetmap">
+			<area shape="circle" coords="180,139,14" target="_parent"></area>
+		</map>
+		<p>The <abbr title="People`s Republic of China">PRC</abbr> was founded in 1949</p>
+		<address>方宝</address>
+		<p>【我与总书记议国是】撸起袖子 推进东北振兴</p>
+		<aside>民法总则体现时代特征和前瞻性  工人给您点赞  部长通道  筑中国梦想</aside>
+		<a href="http://www.baidu.com/">百度</a>
+	</section>
+	<section>
+		<input list="study" />
+		<datalist id="study">
+			<option value="fangbao">fangbao</option>
+			<option value="gaoyanru">gaoyanru</option>
+		</datalist>
+		<!-- <dialog open>Hello Boys</dialog> -->
+		<div id="clickMe">点我</div>
+		<div class="modal">哈哈</div>
+	</section>
+	<script type="text/javascript">
+		var boxId = document.getElementById("box-1");
+		boxId.attachEvent("onclick",function(){
+			console.log(this == window)
+		})
+	</script>
+</body>
+</html>
